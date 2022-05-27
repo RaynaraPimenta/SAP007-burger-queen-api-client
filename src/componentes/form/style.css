@@ -1,0 +1,11 @@
+.div-container{
+display: flex;
+    width: 60%;
+
+}   
+.padrao{
+    background-color: #F2BB77;
+    width: 600px;
+    height: 600px;
+    opacity: 0.2;
+}

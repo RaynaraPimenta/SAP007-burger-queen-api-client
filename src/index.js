@@ -4,8 +4,9 @@ import App from './pages-js/login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-  <App/>  
+    <App />
   </React.StrictMode>
 );
