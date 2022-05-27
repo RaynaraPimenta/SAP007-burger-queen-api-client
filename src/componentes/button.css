@@ -3,6 +3,13 @@
     align-items:center;
     justify-content:center;
 }
+.transparencia{
+    display: flex;
+    width: 270px;
+    height: 16px;
+    border-radius: 40px;
+}
+
 .padrao  {
     display: flex;
     width: 300px;
@@ -20,4 +27,8 @@
 
 .verde{
     background-color: #BCCD00;
+}
+
+.vermelho{
+    background-color: #cd0000;
 }

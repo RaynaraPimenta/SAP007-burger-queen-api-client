@@ -2,12 +2,13 @@ import './button.css'
 const Button = ({className, color, title}) => {
     return (
         <div className='div-geral'>
-            <button 
-            className={className}
-            color={color}
-            > 
-            {title}
-            </button>
+            <div className='transparencia'>
+                <button 
+                className={className}
+                > 
+                {title}
+                </button>
+            </div>
         </div>
     )
 }
