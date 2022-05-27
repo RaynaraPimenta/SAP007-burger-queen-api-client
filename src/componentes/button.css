@@ -1,0 +1,23 @@
+.div-geral{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.padrao  {
+    display: flex;
+    width: 300px;
+    height: 75px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 30px;
+    
+}
+.azul{
+    background-color: #91dfff;  
+}
+
+.verde{
+    background-color: #BCCD00;
+}

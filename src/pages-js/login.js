@@ -1,33 +1,15 @@
 import React from 'react';
-import logo from '../componentes/img/logo.png';
-//import App.css from './src/App.css';
-import Button from '../componentes/button';
-import Form from '../componentes/form.js';
+import Button from '../componentes/button.js';
+
 
 function App() {
   return (
-    <section>
       <header>
-        <img className='logo-img' src={logo} /> 
-        <Form>
-        <label>Email</label>
-                <input type="text"/>
-            <label>Senha</label>
-                <input type="password"/>
-                <Button cor="azul" className='button-form'>entrar</Button>
-                <Button  cor="vermelho"className='button-form'>cadastrar</Button>
-        </Form>
+          <Button className='padrao' color='azul' title='ENTRAR'    />
+          <p> ou </p>
+          <Button className='padrao' color='verde' title='CADASTRAR' />
       </header>
-    </section>
   );
 }
 
 export default App;
-
-
-{/* <a
-className="App-link"
-href="https://reactjs.org"
-target="_blank"
-rel="noopener noreferrer"
-> */}
