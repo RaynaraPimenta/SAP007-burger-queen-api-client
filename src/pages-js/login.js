@@ -29,8 +29,8 @@ function App() {
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 required/> 
-                <Button cor="azul" className='button-form'>entrar</Button>
-                <Button  cor="vermelho"className='button-form'>cadastrar</Button>
+                <Button  className='button-form azul'>entrar</Button>
+                <Button  className='button-form vermelho'>cadastrar</Button>
         </Form>
       </header>
     </section>
