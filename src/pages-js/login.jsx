@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import Button from '../componentes/button';
 import Form from '../componentes/form';
 import Input from '../componentes/input'
-import '../pages-css/login.css';
 
 
 function App() {
@@ -12,12 +11,10 @@ function App() {
   const [password, setPassword]=useState("");
 
   return (
-    <>
       <header>
         {/* <img className='logo-img' src={logo} />  */}
-      </header>
         <Form>
-          <label>Email
+          {/* <label>Email
             <Input 
             type="email"
             placeholder="user@user.com"
@@ -35,9 +32,9 @@ function App() {
           </label> 
           <Button className='padrao azul'  title='ENTRAR'    />
           <p> ou </p>
-          <Button className='padrao verde'  title='CADASTRAR' />
+          <Button className='padrao verde'  title='CADASTRAR' /> */}
         </Form>
-    </>
+      </header>
   );
 }
 

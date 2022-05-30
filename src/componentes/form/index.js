@@ -1,8 +1,16 @@
-import './style.css'
-const Form= ({className})=> {
+import './style.css';
+
+const LayoutForm= (props)=> {
     return(
-        <div className='div-container'> <form className="padrao"> </form> </div>
+        <div className="layoutForm">
+        <section className="container">
+        <form>
+            {props.children}
+        </form>
+        </section>
+        </div>
+    
     )
 }
 
-export default Form;
+export default LayoutForm;
