@@ -1,11 +1,11 @@
 import "./style.css"
 
-const Button= ({className, type, onclick, children, value})=>{
+const Button= ({className, type, onClick, children, value})=>{
     return (
         <button 
             type={type}
             className={className}
-            onclick={onclick}
+            onClick={onClick}
             value={value}
             >
                 {children}
