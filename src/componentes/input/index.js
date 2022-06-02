@@ -1,6 +1,8 @@
+import './style.css';
+
 const Input  = ({ name, placeholder, className, type, value, onChange }) =>{
     return (
-            <input
+            <input 
             name = {name}
             placeholder = {placeholder}
             className={className}

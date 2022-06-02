@@ -1,0 +1,25 @@
+.logo-img {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 280px;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+p{
+    font-family: Andale Mono, monospace;  
+}
+
+.label{
+    display: block;
+    font-size: 32px;
+    width: 100%;
+} 
