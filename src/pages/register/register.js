@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import logo from'../../img/logo.png';
-import Form from '../../componentes/form';
+import Form from '../../componentes/form/index';
 import Input from '../../componentes/input';
 import Button from '../../componentes/button';
+import { creatUser } from '../../services/data';
+import { saveToken, saveRole } from '../../services/token';
+import msgError from '../../services/errors/errors';
 
 function Register(){
     
@@ -10,6 +13,25 @@ function Register(){
     const [email, setEmail]=useState("");
     const [password, setPassword]=useState("");
     const [role, setRole]=useState("");
+
+    //const result= response.json();
+    const handleCreate= (e) => {
+        e.preventDefault();
+        creatUser(name, email, password, role)
+        .then((response) => {
+            if (response.status === 200) {
+                return response.json();
+            };
+        })
+        .then((data)=> {
+            saveToken(data.token);
+            saveRole(data.role);
+        })
+        .catch((error) => {
+            msgError(error);
+        });
+
+    }
     
     return(
     <>
@@ -36,13 +58,13 @@ function Register(){
                 <Input  className="input-radio"
                     type="radio"
                     onChange={(e) => setRole(e.target.value)}
-                    value={role}
+                    value="salão"
                     required/> 
                 <label className="label">Cozinha</label>
                 <Input  className="input-radio"
                     type="radio"
                     onChange={(e) => setRole(e.target.value)}
-                    value={role}
+                    value="cozinha"
                     required/> 
             </section>
             <label className="label">Senha</label>
@@ -52,7 +74,7 @@ function Register(){
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 required/> 
-            <Button className='button green'>Cadastrar</Button>
+            <Button children="Cadastrar" onClick={handleCreate} className='button green'/>
         </Form>
     </>
     );
