@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    background-color: #F2BB77;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icone-voltar{
+    background-color: #F2BB77;
+}
+
+.logo-register{
+    width: 100px;
+    height: auto;
+}
+
+.h4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 32px;
+    margin-right: 5%;
+}
