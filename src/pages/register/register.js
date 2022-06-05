@@ -6,6 +6,7 @@ import Button from '../../componentes/button';
 import { creatUser } from '../../services/data';
 import { saveToken, saveRole } from '../../services/token';
 import msgError from '../../services/errors/errors';
+import Footer from '../../componentes/footer';
 
 function Register(){
     
@@ -76,6 +77,7 @@ function Register(){
                 required/> 
             <Button children="Cadastrar" onClick={handleCreate} className='button green'/>
         </Form>
+    <Footer/>
     </>
     );
 }

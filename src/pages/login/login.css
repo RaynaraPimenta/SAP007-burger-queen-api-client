@@ -1,3 +1,6 @@
+@media screen and (min-width: 768px){
+
+
 .logo-img {
     background-position: center;
     background-size: cover;
@@ -14,6 +17,8 @@ header {
     width: 100%;
 }
 
+}
+
 p{
     font-family: Andale Mono, monospace;  
 }
@@ -23,3 +28,16 @@ p{
     font-size: 32px;
     width: 100%;
 } 
+
+
+@media screen and (min-width: 1024px){
+
+.label{
+    display: block;
+    font-size: 35px;
+    width: 100%;
+    } 
+
+
+
+}
