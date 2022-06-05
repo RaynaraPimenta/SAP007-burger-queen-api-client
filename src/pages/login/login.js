@@ -51,8 +51,8 @@ function Login() {
       <Form>
         <label className="label">Email</label>
           <Input  className="inputs"
-          type="email"
-          placeholder="user@user.com"
+          type="Email"
+          placeholder="usuario@usuario.com"
           onChange={(e) => setEmail(e.target.value)}
           required/> 
         <label className="label">Senha</label>
