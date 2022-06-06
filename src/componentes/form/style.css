@@ -12,7 +12,7 @@
     background-color: rgba(242, 187, 119, 20%);
     flex-direction: column;
     align-items: center;
-    width: 600px;
+    width: 60vw;
     padding: 30px;
     margin-top: 35px;
     border-radius: 50px;
@@ -39,7 +39,7 @@
     background-color: rgba(242, 187, 119, 20%);
     flex-direction: column;
     align-items: center;
-    width: 700px;
+    width: 600px;
     padding: 30px;
     margin-top: 35px;
     border-radius: 50px;

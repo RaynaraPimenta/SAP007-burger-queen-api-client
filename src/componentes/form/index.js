@@ -5,9 +5,7 @@ const LayoutForm= (props)=> {
         <div className="layoutForm">
         <section className="container">
         <form>
-           {
-            props.children
-           }
+            {props.children}
         </form>
         </section>
         </div>
