@@ -6,6 +6,6 @@ describe("<Footer />, () => {
     it("Renderiza os links do footer corretamente", () => { 
         render(<Footer />);
         const links = screen.getAllByRole("link")
-        expect(links.length).toEquals(1);
+        expect(links.length).toEquals(2);
     });
 });
