@@ -30,7 +30,8 @@ function Register(){
         })
         .then((data)=> {
             saveToken(data.token);
-            saveRole(data.role);
+            saveRole(data.role)
+            navigate("/login");
         })
         .catch((error) => {
             msgError(error);

@@ -33,7 +33,7 @@ function Login() {
     })
     .then((data) => {
       saveToken(data.token);
-      if (data.role == "salão") {
+      if (data.role === "salão") {
         navigate("/menu");
       } else {alert ("Usuário ou conta não identificado, realize seu cadastro!")}
     })
