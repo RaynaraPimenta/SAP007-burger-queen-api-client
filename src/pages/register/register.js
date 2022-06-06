@@ -67,20 +67,23 @@ function Register(){
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 required/>
+            <label className="label">Função</label> 
             <Input  
                 className="input-radio"
                 type="radio"
                 onChange={(e) => setRole(e.target.value)}
                 value="salão"
                 required
-                checked/>
+                checked
+                name="role"/>
             <label className="label">Salão</label> 
             <Input  
                 className="input-radio"
                 type="radio"
                 onChange={(e) => setRole(e.target.value)}
                 value="cozinha"
-                required/> 
+                required
+                name="role"/> 
             <label className="label">Cozinha</label>
             <label className="label">Senha</label>
             <Input 
