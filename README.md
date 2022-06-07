@@ -1,5 +1,15 @@
-# Getting Started with Create React App
+<div align="center">
+   <img alt="Logo da Buguer|Café" src="/src/img/logo.png">
 
+  ## O projeto Burguer Quenn API Client é desenvolvido para suprir a demanda de um restaurante em crescimento. Por ele a equipe da cozinha e do salão terão uma comunicação totalmente integrada e funcional. 
+     
+<div style="display: inline_block">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> <img alt="HTML" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSSL" target="_blank"><img alt="CSS" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img alt="JavaScript" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
+  <a hred="https://firebase.google.com/"><img alt="Firebase" width="35" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" /></a>
+</div>
+</div>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +78,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## 7. AUTORAS
+
+<table align= "center">
+<td>
+  <div align= "center">
+    <img alt="Camila Aguiar Santiago" height="150" src="https://avatars.githubusercontent.com/u/97450471?v=4"> 
+  </div>
+  <h3 align="center"><a href="https://github.com/Cahaguiar">Camila Aguiar Santiago</a></h3>
+  <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
+  <div align="center">
+    <a href = "mailto:camilaguiar73@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+    <a href="https://www.linkedin.com/in/camila-aguiar-santiago/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+</td>
+
+<td>
+    <div align= "center">
+    <img alt="RaynaraPimenta" height="150" src="https://avatars.githubusercontent.com/u/97410639?v=4"> 
+  </div>
+  <h3 align="center"><a href="https://github.com/RaynaraPimenta">Raynara Pimenta</a></h3>
+  <h4 align="center">Projeto do Bootcamp da <em><a href="https://hub.laboratoria.la/br">Laboratoria</a></em></h4>
+  <div align="center">
+    <a href = "mailto:raynarapimenta@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+    <a href="https://www.linkedin.com/in/raynara-pimenta/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  </div>
+   
+</td>
+
+</table>
