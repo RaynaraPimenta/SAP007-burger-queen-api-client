@@ -45,7 +45,7 @@ function Register(){
     return(
     <>
         <nav className='nav'>
-            <button onClick={handleBack}>
+            <button className='noBorder' onClick={handleBack}>
                 <img className='icone-voltar' src={vector} alt="seta de voltar" />
             </button>
             <img className='logo-img logo-register' src={logo} alt="Ícone do Burger Café"/>

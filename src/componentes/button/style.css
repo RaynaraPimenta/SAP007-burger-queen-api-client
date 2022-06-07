@@ -20,5 +20,9 @@
 .green{
     background-color: #DBE47D;
     border: 10px solid #BCCD00;;
+}
 
+.noBorder{
+    border: none;
+    background: none;
 }
