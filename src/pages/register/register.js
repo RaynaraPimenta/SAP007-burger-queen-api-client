@@ -49,7 +49,7 @@ function Register(){
                 <img className='icone-voltar' src={vector} alt="seta de voltar" />
             </button>
             <img className='logo-img logo-register' src={logo} alt="Ícone do Burger Café"/>
-            <h4 className='h4'>Cadastrar</h4>
+            <h4 className='h4'>Cadastro</h4>
         </nav>
         <Form>
             <label className="label">Nome</label>

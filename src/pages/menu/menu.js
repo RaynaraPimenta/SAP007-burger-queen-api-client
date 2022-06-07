@@ -3,7 +3,7 @@ import Button from '../../componentes/button';
 
 function Menu(){
     return(
-        <Button children="Cadastrar" className='button green'/>
+        <Button children="Menu" className='button green'/>
     )
 }
 
