@@ -31,13 +31,25 @@ p{
 
 
 @media screen and (min-width: 1024px){
+.flex{
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    margin-right: 20%;
+}
 
 .label{
     display: block;
     font-size: 35px;
     width: 100%;
-    } 
+} 
 
-
+.logo-img {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+}
 
 }

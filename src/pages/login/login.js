@@ -39,12 +39,12 @@ function Login() {
     })
     .catch((error) => {
       console.log("error de fech")
-     // msgError(error);
   }) 
   };
   
   return (
   <>
+    <div className='flex'>
       <header>
         <img className='logo-img' src={logo} /> 
       </header>
@@ -65,6 +65,7 @@ function Login() {
         <Button children="Entrar" onClick={handleLogin} className='button blue'/>
         <Button children="Cadastrar" onClick={handleRegister} className='button green'/> 
       </Form>
+    </div>
     <Footer/>
   </>
   );
