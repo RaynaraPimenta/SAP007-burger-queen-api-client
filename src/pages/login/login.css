@@ -23,6 +23,7 @@ p{
     font-family: Andale Mono, monospace;  
 }
 
+
 .label{
     display: block;
     font-size: 32px;
@@ -47,7 +48,7 @@ p{
 .logo-img {
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 450px;
     height: auto;
     margin-top: 20px;
 }
