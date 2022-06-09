@@ -4,20 +4,18 @@ import Login from "./pages/login/login.js";
 import Register from "./pages/register/register.js";
 import Menu from "./pages/menu/menu.js";
 
-const Routes= ()=> {
+const Routes = () => {
     return (
-    <BrowserRouter>
-        <RoutesDOM> 
-            <Route exact path="/" element={<Login/>}/> 
-            <Route path="/login" element={<Login/>}/>  
-            <Route path="/register" element={<Register/>}/>
-            <Route path="/menu" element={<Menu/>}/>
-        </RoutesDOM> 
-    </BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <RoutesDOM>
+                <Route exact path="/" element={<Login />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/menu" element={<Menu />} />
+            </RoutesDOM>
+        </BrowserRouter>
     );
 }
 
 export default Routes;
-{/* <Navigate replace to="/login" */}
-
-
+{/* <Navigate replace to="/login" */ }
