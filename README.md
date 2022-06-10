@@ -4,11 +4,17 @@
   ## O projeto Burguer Quenn API Client é desenvolvido para suprir a demanda de um restaurante em crescimento. Por ele a equipe da cozinha e do salão terão uma comunicação totalmente integrada e funcional. 
      
 <div style="display: inline_block">
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> <img alt="HTML" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSSL" target="_blank"><img alt="CSS" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></a>
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img alt="JavaScript" height="35" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
-  <a hred="https://firebase.google.com/"><img alt="Firebase" width="35" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" /></a>
-</div>
+  <img alt="HTML"          height="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+  <img alt="CSS"           height="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+  <img alt="JavaScript"    height="45" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+  <img alt="React"         heigth="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+  <img alt="NPM"           heigth="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+  <img alt="Git"           heigth="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
+  <img alt="Github"        heigth="55" width="55" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+          
+          
+          
+ </div>
 </div>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
