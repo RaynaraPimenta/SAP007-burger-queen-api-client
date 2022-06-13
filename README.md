@@ -10,76 +10,40 @@
   <a hred="https://firebase.google.com/"><img alt="Firebase" width="35" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain.svg" /></a>
 </div>
 </div>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## :bookmark_tabs: Índice
 
-In the project directory, you can run:
+- [1. O Projeto](#1-o-projeto)
+- [2. A aplicação](#2-a-aplicação)
+- [3. Histórias de usuários](#3-histórias-de-usuários)
+  * [3.2 Funcionalidades](#funcionalidades)
+- [4. Planejamento](#4-planejamento)
+  * [4.2 Organização](#42-organização)
+  * [4.3 Fluxograma](#43-fluxograma)
+  * [4.4 User Experience](#44-user-experience)
+  * [4.5 Wireframe de média fidelidade](#45-wireframe-de-média-fidelidade)
+- [5. Identidade Visual](#5-identidade-visual)
+  * [5.2 Paleta de Cores](#52-paleta-de-cores)
+  * [5.3 Tipografia](#53-tipografia)
+  * [5.4 Logotipo](#54-logotipo)
+- [6. User Interface](#ux-ui)
+  * [6.2 Feedback & Melhorias](#feedback-melhorias)
+- [7. Desenvolvimento](#7-desenvolvimento)
+  * [7.2 Interface Final](#72-interface-final)
+  * [7.3 Valor do produto](#roi)
+  * [7.4 Próximos passos](#futuro)
+- [8. Tecnologias](#8-tecnologias)
+- [9. Desenvolvedoras](#9-desenvolvedoras)
+- [10. Licença](#10-licença)
 
-### `npm start`
+## :floppy_disk: 1. O Projeto
+O Burger Café foi desenvolvido para suprir o desafio *Burguer Queen*, proposto pela [Laboratória](https://github.com/Laboratoria). Nele, a equipe precisa desenvolver uma aplicação para uma hamburgueria a fim de integrar o salão e a cozinha de forma dinâmica e eficiente. Usando interface, API e tecnologias como React, é possível otimizando a comunicação dos funcionários quanto as pedidos, cuminando em um produto desejável com as seguintes caracteristicas:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interface e o estado sincronizados(React)
+- Ser um SPA (Single Page App)
+- Ser responsivo em *tablets*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
+## 2. A aplicação
 
 ## 7. AUTORAS
 

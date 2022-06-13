@@ -1,11 +1,12 @@
-import { Route, BrowserRouter, Routes as RoutesDOM } from "react-router-dom";
+import { Route, BrowserRouter, Routes as RoutesDOM } from 'react-router-dom'
 
-import Login from "./pages/login/login.js";
-import Register from "./pages/register/register.js";
-import Menu from "./pages/menu/menu.js";
+import Login from './pages/login/login.js'
+import Register from './pages/register/register.js'
+import Menu from './pages/menu/menu.js'
 
 const Routes = () => {
-    return (
+  return (
+    <>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <RoutesDOM>
                 <Route exact path="/" element={<Login />} />
@@ -14,8 +15,8 @@ const Routes = () => {
                 <Route path="/menu" element={<Menu />} />
             </RoutesDOM>
         </BrowserRouter>
-    );
+    </>
+  )
 }
 
-export default Routes;
-{/* <Navigate replace to="/login" */ }
+export default Routes
