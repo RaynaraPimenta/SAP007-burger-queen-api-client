@@ -1,8 +1,8 @@
-import './style.css';
+import './style.css'
 
-const Input  = ({ name, placeholder, className, type, value, onChange }) =>{
-    return (
-            <input 
+const Input = ({ name, placeholder, className, type, value, onChange }) => {
+  return (
+            <input
             name = {name}
             placeholder = {placeholder}
             className={className}
@@ -11,7 +11,7 @@ const Input  = ({ name, placeholder, className, type, value, onChange }) =>{
             onChange={onChange}
             required
             />
-    );
-};
+  )
+}
 
-export default Input;
+export default Input

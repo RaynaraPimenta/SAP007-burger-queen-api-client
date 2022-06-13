@@ -1,7 +1,7 @@
-import './style.css';
+import './style.css'
 
-const LayoutForm= (props)=> {
-    return(
+const LayoutForm = (props) => {
+  return (
         <div className="layoutForm">
         <section className="container">
         <form>
@@ -9,8 +9,8 @@ const LayoutForm= (props)=> {
         </form>
         </section>
         </div>
-    
-    )
+
+  )
 }
 
-export default LayoutForm;
+export default LayoutForm
