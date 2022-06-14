@@ -1,8 +1,8 @@
 import { Route, BrowserRouter, Routes as RoutesDOM } from 'react-router-dom'
 
 import Login from './pages/login/login.js'
-import Register from './pages/register/register.js'
-import Menu from './pages/menu/menu.js'
+import Register from './pages/register/register.jsx'
+import Menu from './pages/menu/menu.jsx'
 
 const Routes = () => {
   return (

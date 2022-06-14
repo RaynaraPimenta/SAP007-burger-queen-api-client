@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 80vh;
 }
 
 .container {
@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     width: 600px;
-    padding: 30px;
+    padding: 59px;
     margin-bottom: 40px;
     border-radius: 50px;
     box-shadow: 0px 5px 10px rgb(29 28 28 / 43%);
