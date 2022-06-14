@@ -62,8 +62,8 @@ function Login() {
           onChange={(e) => setPassword(e.target.value)}
           value={password}
           required/> 
-        <Button children="Entrar" onClick={handleLogin} className='button blue'/>
-        <Button children="Cadastrar" onClick={handleRegister} className='button green'/> 
+        <Button onClick={handleLogin} className='button blue'>Entrar</Button>
+        <Button onClick={handleRegister} className='button green'>Cadastrar</Button>
       </Form>
     </div>
     <Footer/>

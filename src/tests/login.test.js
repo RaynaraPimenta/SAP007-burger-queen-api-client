@@ -17,12 +17,12 @@ describe('Login', () => {
     
     const email = 'email@example.com';
     const password = '123456';
-    const inputEmail = screen.getByPlaceholderText(/Email/i);
+    const inputEmail = screen.getByPlaceholderText('usuario@usuario.com');
     userEvent.type(inputEmail, email)
-    const inputPassword = screen.getByPlaceholderText(/Password/i);
+    const inputPassword = screen.getByPlaceholderText("******");
     userEvent.type(inputPassword, password)
 
-    const buttonLogin= screen.getByRole('button');
+    const buttonLogin= screen.getByRole('Entrar');
     userEvent.click(buttonLogin)
     
     await waitFor(()=> {
