@@ -4,9 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:react/plugin"
+        "standard"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,10 +17,7 @@
     "plugins": [
         "react"
     ],
-    
     "rules": {
-        "semi": ["warn", "always"],
-        "quotes":["warn", "simple"],
-        "react/prop-types": 0    
+        "react/react-in-jsx-scope": "off"
     }
 }
