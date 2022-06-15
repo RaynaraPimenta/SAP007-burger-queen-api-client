@@ -44,7 +44,7 @@ function Login () {
     <>
       <div className='flex'>
         <header>
-          <img className='logo-img' src={logo} />
+          <img className='logo-img' src={logo} alt="logo burger café" />
         </header>
         <Form>
           <label className="label">Email</label>
