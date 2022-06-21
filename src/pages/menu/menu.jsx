@@ -4,13 +4,25 @@ import Input from '../../componentes/input'
 import Footer from '../../componentes/footer';
 import logo from '../../img/logo.png';
 import './style.css';
+import {getAllProducts} from '../../services/data';
 
 function Menu() {
 
   const [table, setTable] = useState("");
   const [client, setClient] = useState("");
 
-  return (
+  const products =(e)=> {
+    e.preventDefault();
+    getAllProducts()
+  .then((response) => {
+    if (response.status === 200) {
+      console.log(response)
+      return response.json();
+    }
+  })
+}
+  
+return (
     <>
       <header>
         <nav className='nav'>
@@ -40,7 +52,7 @@ function Menu() {
 
       </main>
       <section className="menu">
-        <Button className='button-product'>Café da Manhã</Button>
+        <Button onclick={products} className='button-product'>Café da Manhã</Button>
         <Button className='button-product'>Lanches</Button>
         <Button className='button-product'>Porções</Button>
         <Button className='button-product'>Bebidas</Button>
@@ -50,7 +62,6 @@ function Menu() {
         <Button className='button-product'>Pedidos Prontos</Button>
         <Button className='button-product'>Pedidos Finalizados</Button>
         <Button className='button-product'>Novo Pedido</Button>
-
       </section>
 
       <Footer />

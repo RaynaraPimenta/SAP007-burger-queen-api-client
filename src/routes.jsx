@@ -1,6 +1,6 @@
 import { Route, BrowserRouter, Routes as RoutesDOM } from 'react-router-dom'
 
-import Login from './pages/login/login.js'
+import Login from './pages/login/login.jsx'
 import Register from './pages/register/register.jsx'
 import Menu from './pages/menu/menu.jsx'
 
