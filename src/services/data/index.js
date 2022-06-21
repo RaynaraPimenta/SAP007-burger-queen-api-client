@@ -31,3 +31,14 @@ export const loginUser = (email, password) => {
     })
   })
 }
+
+
+export const getAllProducts = () => {
+  return fetch(`${URL}/products`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: getToken()
+    }
+  })
+}
