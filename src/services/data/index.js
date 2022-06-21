@@ -1,4 +1,4 @@
-import { saveToken } from '../token'
+import { getToken } from '../token'
 const URL = 'https://lab-api-bq.herokuapp.com'
 
 export const creatUser = (name, email, password, role) => {
@@ -39,7 +39,7 @@ export const getAllProducts = () => {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': saveToken()
+      Authorization: getToken()
     }
   })
 }

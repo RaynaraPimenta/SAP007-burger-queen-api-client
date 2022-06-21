@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import './style.css'
 
-const Button = ({ className, type, onClick, children, value }) => {
+const Button = ({ className, type, onClick, title, value }) => {
   return (
         <button
             type={type}
@@ -9,7 +9,7 @@ const Button = ({ className, type, onClick, children, value }) => {
             onClick={onClick}
             value={value}
         >
-            {children}
+            title={title}
         </button>
   )
 }

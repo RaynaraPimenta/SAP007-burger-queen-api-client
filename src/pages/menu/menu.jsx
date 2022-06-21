@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from '../../componentes/button'
+import Button from '../../componentes/Button/index.jsx'
 
 function Menu () {
   return (
-        <Button children="Cadastrar" className='button green'/>
+        <Button className='button green'> Cadastrar </Button>
   )
 }
 
