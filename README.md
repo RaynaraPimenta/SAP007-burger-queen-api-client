@@ -21,7 +21,7 @@
 
 - [1. O Projeto](#1-o-projeto)
 - [2. A aplicação](#2-a-aplicação)
-- [3. Histórias de usuários](#3-histórias-de-usuários)
+<!-- - [3. Histórias de usuários](#3-histórias-de-usuários)
   * [3.2 Funcionalidades](#funcionalidades)
 - [4. Planejamento](#4-planejamento)
   * [4.2 Organização](#42-organização)
@@ -33,14 +33,13 @@
   * [5.3 Tipografia](#53-tipografia)
   * [5.4 Logotipo](#54-logotipo)
 - [6. User Interface](#ux-ui)
-  * [6.2 Feedback & Melhorias](#feedback-melhorias)
+  * [6.2 Feedback & Melhorias](#feedback-melhorias) -->
 - [7. Desenvolvimento](#7-desenvolvimento)
-  * [7.2 Interface Final](#72-interface-final)
+<!--   * [7.2 Interface Final](#72-interface-final)
   * [7.3 Valor do produto](#roi)
-  * [7.4 Próximos passos](#futuro)
+  * [7.4 Próximos passos](#futuro) -->
 - [8. Tecnologias](#8-tecnologias)
 - [9. Desenvolvedoras](#9-desenvolvedoras)
-- [10. Licença](#10-licença)
 
 ## :floppy_disk: 1. O Projeto
 O Burger Café foi desenvolvido para suprir o desafio *Burguer Queen*, proposto pela [Laboratória](https://github.com/Laboratoria). Nele, a equipe precisa desenvolver uma aplicação para uma hamburgueria a fim de integrar o salão e a cozinha de forma dinâmica e eficiente. Usando interface, API e tecnologias como React, é possível otimizando a comunicação dos funcionários quanto as pedidos, cuminando em um produto desejável com as seguintes caracteristicas:
@@ -49,7 +48,7 @@ O Burger Café foi desenvolvido para suprir o desafio *Burguer Queen*, proposto 
 - Ser um SPA (Single Page App)
 - Ser responsivo em *tablets*
 
-## 2. A aplicação
+<!-- ## 2. A aplicação -->
 
 ## 7. AUTORAS
 
